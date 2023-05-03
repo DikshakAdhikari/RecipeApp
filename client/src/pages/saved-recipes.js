@@ -11,7 +11,7 @@ export const SavedRecipes = () => {
 
     const fetchSavedRecipe= async () => {
       try{
-        const response= await axios.get(`http://localhost:3001/recipes/savedRecipes/${userID}` );
+        const response= await axios.get(`https://recipedikshak.vercel.app/recipes/savedRecipes/${userID}` );
        setSavedRecipes(response.data.savedRecipes);
   
       } catch(err) {
