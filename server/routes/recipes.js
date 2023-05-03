@@ -1,5 +1,5 @@
 import express from "express";
-import { RecipeModel } from "../../models/Recipes.js";
+import { RecipeModel } from "../models/Recipes.js";
 import { UserModel } from "../models/Users.js";
 import { verifyToken } from "../routes/users.js";
 
