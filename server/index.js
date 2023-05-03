@@ -2,9 +2,8 @@ import express from "express";
 import cors from 'cors'
 import mongoose from 'mongoose'
 
-
-import {userRouter} from './routes/users.js'
-import {recipesRouter} from './routes/recipes.js'
+import {userRouter} from './routes/users'
+import {recipesRouter} from './routes/recipes'
 import dotenv from 'dotenv';
 dotenv.config();
 
