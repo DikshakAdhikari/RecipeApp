@@ -12,7 +12,7 @@ const app= express()
 
 app.use(express.json()); //whenever you get data from the frontend it will get converted into json
 app.use(cors({
-    origin: "http://localhost:3000"
+    origin: "https://dikshakrecipe.vercel.app"
 }));
 app.use("/auth", userRouter)
 app.use("/recipes", recipesRouter)
